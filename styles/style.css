@@ -1,1 +1,29 @@
-/*# sourceMappingURL=style.css.map */
+html {
+  font-size: 10px;
+}
+
+body {
+  color: #100a30;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1232px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+.nav__link {
+  color: #100a30;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
