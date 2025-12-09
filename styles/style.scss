@@ -25,10 +25,19 @@ body {
   align-items: center;
 
   &__item {
+    margin-right: 2rem;
   }
 
   &__link {
     color: $text;
     text-decoration: none;
+  }
+  &__btn {
+    font-size: 1.4rem;
+    background-color: $purple;
+    color: $white;
+    text-decoration: none;
+    padding: 1.2rem 2.4rem;
+    border-radius: 0.6rem;
   }
 }
