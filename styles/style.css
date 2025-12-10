@@ -11,10 +11,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 1232px;
+  max-width: 1232px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 21px 15px;
 }
 
 .nav {
@@ -22,9 +21,13 @@ body {
   padding-left: 0;
   display: flex;
   align-items: center;
+  margin: 0;
 }
 .nav__item {
-  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.nav__item:first-child {
+  margin-left: 0;
 }
 .nav__link {
   color: #100a30;
