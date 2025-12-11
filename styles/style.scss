@@ -4,7 +4,8 @@ html {
   font-size: 10px;
 }
 body {
-  color: $text;
+  color: $dark;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
 }
 
@@ -14,7 +15,7 @@ body {
   align-items: center;
   max-width: 1232px;
   margin: 0 auto;
-  padding: 21px 15px;
+  padding: 33px 15px;
 }
 
 .nav {
@@ -25,9 +26,12 @@ body {
   margin: 0;
 
   &__item {
-    margin-left: 2rem;
+    margin-left: 4.4rem;
     &:first-child {
       margin-left: 0;
+    }
+    &:last-child {
+      margin-left: 2.7rem;
     }
   }
 
@@ -40,7 +44,9 @@ body {
     background-color: $purple;
     color: $white;
     text-decoration: none;
-    padding: 1.2rem 2.4rem;
+    padding: 1.6rem 2.6rem;
     border-radius: 0.6rem;
   }
+}
+.banner {
 }
