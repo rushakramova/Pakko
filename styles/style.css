@@ -136,6 +136,16 @@ a {
 .tarif-item-03 .tarif-list__item::before {
   background-image: url(../images/check-03.svg);
 }
+.tarif-header {
+  padding-top: 5rem;
+  background-image: url(/images/tarif-01.svg);
+}
+.tarif-info {
+  background-color: #100a30;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
 .tarif-footer {
   border-radius: 0 0 0.8rem 0.8rem;
   padding: 2.4rem 3rem;

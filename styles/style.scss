@@ -146,6 +146,17 @@ a {
       }
     }
   }
+  &-header {
+    padding-top: 5rem;
+    background-image: url(/images/tarif-01.svg);
+  }
+  &-info {
+    background-color: $dark;
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+  }
+
   &-footer {
     border-radius: 0 0 0.8rem 0.8rem;
     padding: 2.4rem 3rem;
