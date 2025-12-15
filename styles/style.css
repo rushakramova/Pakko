@@ -118,17 +118,26 @@ a {
 .tarif-item {
   flex: 0 0 32%;
 }
+.tarif-item-01 .tarif-header {
+  background-image: url(/images/tarif-01.svg);
+}
 .tarif-item-01 .tarif-footer {
   background-color: rgba(16, 10, 48, 0.03);
 }
 .tarif-item-01 .tarif-list__item::before {
   background-image: url(../images/check-01.svg);
 }
+.tarif-item-02 .tarif-header {
+  background-image: url(/images/tarif-02.svg);
+}
 .tarif-item-02 .tarif-footer {
   background-color: rgba(25, 199, 135, 0.05);
 }
 .tarif-item-02 .tarif-list__item::before {
   background-image: url(../images/check-02.svg);
+}
+.tarif-item-03 .tarif-header {
+  background-image: url(/images/tarif-03.svg);
 }
 .tarif-item-03 .tarif-footer {
   background-color: rgba(252, 185, 52, 0.05);
@@ -137,14 +146,39 @@ a {
   background-image: url(../images/check-03.svg);
 }
 .tarif-header {
-  padding-top: 5rem;
-  background-image: url(/images/tarif-01.svg);
+  background-position: 0 center;
+  padding-top: 10rem;
+  border-radius: 0.8rem 0.8rem 0 0;
 }
 .tarif-info {
   background-color: #100a30;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 4rem 3rem 3.5rem;
+}
+.tarif-info__title {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin: 0;
+}
+.tarif-info__title::before {
+  content: "";
+  display: block;
+  background-image: url(../images/pakko-white.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 6.1rem;
+  height: 1.6rem;
+  margin-bottom: 1.3rem;
+}
+.tarif-info__price {
+  font-size: 4.8rem;
+  margin: 0;
+}
+.tarif-info__price span {
+  font-size: 1.5rem;
 }
 .tarif-footer {
   border-radius: 0 0 0.8rem 0.8rem;
