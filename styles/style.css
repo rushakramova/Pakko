@@ -149,6 +149,8 @@ a {
   background-position: 0 center;
   padding-top: 10rem;
   border-radius: 0.8rem 0.8rem 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .tarif-info {
   background-color: #100a30;
@@ -157,6 +159,17 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 4rem 3rem 3.5rem;
+  position: relative;
+}
+.tarif-info::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4.5rem;
+  background-image: url(../images/item.svg);
+  position: absolute;
+  top: -4.5rem;
+  left: 0;
 }
 .tarif-info__title {
   font-size: 2.4rem;
